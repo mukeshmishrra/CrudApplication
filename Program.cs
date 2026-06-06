@@ -22,6 +22,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // 3. Register your custom Application Services (Dependency Injection)
 builder.Services.AddScoped<IProductService, ProductService>();
 
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+
 
 var app = builder.Build();
 

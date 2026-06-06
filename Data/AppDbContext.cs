@@ -8,6 +8,7 @@ namespace CrudAppliction.Data
     {
         // This represents your actual table. The table in SQL will be named "Products"
         public DbSet<Product> Products => Set<Product>();
+        public DbSet<Employee> Employees => Set<Employee>();
 
     }
 }
